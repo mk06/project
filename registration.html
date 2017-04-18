@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {
+background-image: url("bg.jpg");
+}
+</style>
+</head>
+<body>
+<center>
+<table>
+<form name="myForm" action="REGISTER.PHP"
+onsubmit="return validateForm()" method="post">
+<tr><td>Name:</td>
+<td><input type="text" name="Name" placeholder="Name" ></td></tr><br><br>
+<tr><td>username:</td>
+<td><input type="text" name="username" placeholder="username" ></td></tr><br><br>
+<tr><td>date of birth:</td>
+<td><input type="date" name='DOB' placeholder="DOB"></td></tr><br><br>
+<tr><td>emailid:</td>
+<td><input type="text" name='emailid' placeholder="emailid"></td></tr><br><br>
+<tr><td>password:</td>
+<td><input type="password" name='password' placeholder="password" required></td></tr><br><br>
+<tr><td>confirm_ password:</td>
+<td><input type="password" name='confirm_password' placeholder="confirm password" required></td></tr><br><br>
+<tr><td/><td>
+<a href="login.html"><input type="submit" value="Submit"></a></td></tr>
+<tr><td/>
+<td><a href="registration.html"><input type="reset" value="Reset"></a></td></tr>
+</form>
+</body>
+</html>

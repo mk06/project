@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body {
+background-image: url("bg.jpg");
+}
+form fieldset input[type="button"] {
+background-color: turquoise;
+border: none;
+border-radius: 3px;
+-moz-border-radius: 3em;
+-webkit-border-radius: 3em;
+cursor: pointer;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-color: black;
+font-weight: bold;
+height: 50px;
+width: 300px;
+}
+form fieldset a:hover { text-decoration: underline; }
+#form {
+margin: 100px auto;
+width: 500px;
+}
+</style>
+</head>
+<body>
+<center>
+<div id="form">
+<fieldset>
+<table>
+<form name="myForm2" action="VENDOR_INSERT.php" method="post">
+<tr><td>VENDOR NAME:</td>
+<td><input type="text" name="VENDORNAME" placeholder="Enter Vendor Name" required ></td></tr>
+<tr><td>vendor_id:</td> 
+<td><input type="text"  name="VENDOR_ID" placeholder="Enter Vendor Id"></td></tr>
+<tr><td>vending material:</td> 
+<td><input type="text"  name="VENDINGMATERIAL" placeholder="Enter Vending Material"></td></tr>
+<tr><td>Material ID:</td>
+<td><input type="text"  name="MATERIAL_ID" placeholder="Enter Material ID"></td></tr>
+<tr><td>quantity:</td>
+<td><input type="text"  name="QUANTITY" placeholder="Enter Quantity"></td></tr>
+<tr><td>Installment:</td>
+<td><input type="text"  name="INSTALLMENT" placeholder="Enter Instalment"></td></tr>
+<tr><td>
+<input type="button" value="Submit"></td>
+<td><a href="form.html"><input type="button" value="Reset"></td></tr>
+</form>
+</table>
+</fieldset>
+</div>
+</center>
+</body>
+</html>
